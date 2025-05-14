@@ -4,87 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio</title>
-    <style>
-    body {
-      background-color: #000000; /* Replace with your desired hex color */
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    header{
-        color: aliceblue;
-    }
-    h1{
-        color: aliceblue;
-    }
-    section{
-        color: aliceblue;
-    }
-    .intro{
-        
-    }
-    footer{
-        color: aliceblue;
-    }
-  </style>
 </head>
-<title>Portfolio</title>
 <body>
-    <header>
-        <h1>Richard Vergara</h1>
-        <p>Aspiring Software Developer || Web Developer || Data Analyst</p>
-    </header>
+    <div class="inner_background">
+        <div class="content-wrapper">
+            <header>
+                <h1>Richard Vergara</h1>
+                <p>Aspiring Software Developer || Web Developer || Data Analyst</p>
+            </header>
 
-    <main>
+            <main>
+                <!-- Introduction -->
+                <section class="about">
+                    <h2>About Me</h2>
+                    <ul>
+                        <li class="intro">🎓 Software Development Graduate from Southern Alberta Institute of Technology | 💻 Aspiring Software Developer, Web Developer or Data Analyst. </li>
+                        <li class="intro">📍 Calgary, AB | Passionate about building data-driven applications for real-world business insights such as bank insitutions and oil & gas industries. </li>
+                        <li class="intro">🚀 I love solving business problems through code, data, and predictive analysis. Heavily inspired from websites that involved in predicting values of the stocks like StockX, GOAT, and Sole Retriever.</li>
+                    </ul>
+                </section>
 
-        <!-- Introduction -->
-        <section class="about">
-            <h2>About Me</h2>
-                <p>
-                    <li class="intro">🎓 Software Development Graduate from Southern Alberta Institute of Technology | 💻 Aspiring Software Developer, Web Developer or Data Analyst  </li>
-                    <li class="intro">📍 Calgary, AB | Passionate about building data-driven applications for real-world business insights</li>
-                    <li class="intro">🚀 I love solving business problems through code, data, and predictive analysis. 
-                        Heavily inspired from websites that involved in predicting values of the stocks like StockX, GOAT, and Sole Retriever. </li>
-                </p>
-        </section>
+                <!-- Projects -->
+                <section>
+                    <h2 class="project_header">Projects</h2>
+                    <div>
+                        <h3 class="project">EatsYYC</h3>
+                        <p>Platform type: Mobile app</p>
+                        <p>Description of the project: EatsYYC is a mobile app that allows users to find the restaurant that they have never visited before. Most of the restaurant listed on the app are locals</p>
+                    </div>
+                </section>
 
-        <!-- Projects -->
-        <section>
-            <h2>Projects</h2>
-                <p>
-                    Title of the project: EatsYYC
-                </p>
-                <p>Platform type: Mobile app</p>
-        </section>
-
-        <!-- Languages and Tools -->
-        <section>
-            <h2>
-                Programming languages
-            </h2>
-            <h4>
-                Front End Languages
-            </h4>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>React</li>
-                <li>Next.Js</li>
-            </ul>
-        </section>
-
-        <footer>
-            <h2>Contact</h2>
-                <p>LinkedIn page: <a href="https://www.linkedin.com/in/richard-v-8a5a19265/">Richard Vergara</a> 
-                    & Email: <a href="mailto:richarddeanvergara@gmail.com">Richarddeanvergara@gmail.com</a>
-                </p>
-        </footer>
-        <section>
-            
-        </section>
-
-    </main>
-        
+                <!-- Languages and Tools -->
+                <section>
+                    <h2>Languages and Tools</h2>
+                    <div class="skills-grid">
+                        <div>
+                            <h3>Front End</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Back End</h3>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>C#</li>
+                                <li>MySQL</li>
+                                <li>Oracle SQL</li>
+                                <li>Firebase</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Framework</h3>
+                            <ul>
+                                <li>React</li>
+                                <li>Next.js</li>
+                                <li>PySpark</li>
+                                <li>Tailwind CSS</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>GitHub</li>
+                                <li>VSCode</li>
+                                <li>Figma</li>
+                                <li>Docker</li>
+                                <li>Excel</li>
+                                <li>PostMan</li>
+                                <li>Canvas</li>
+                                <li>Expo Go</li>
+                                <li>NPM/Yarn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <h2>Contact</h2>
+                    <p>LinkedIn page: <a href="https://www.linkedin.com/in/richard-v-8a5a19265/">Richard Vergara</a> 
+                        & Email: <a href="mailto:richarddeanvergara@gmail.com">Richarddeanvergara@gmail.com</a>
+                    </p>
+                </footer>
+            </main>
+        </div>
+    </div>
 </body>
 </html>
